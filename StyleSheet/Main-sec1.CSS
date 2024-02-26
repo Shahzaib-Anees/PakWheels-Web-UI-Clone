@@ -1,10 +1,7 @@
-/* Lato Font  */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* Main  Section Styling  */
 #main-sec1{
     width: 100%;
-    border: 2px solid black;
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -46,20 +43,21 @@
 /* Content Box 1  */
 .main-sec1-content>.content-box-1{
     border: 1px solid #ccc;
-    width: 30%;
+    width: 37%;
     padding:2%;
 }
 
 .content-box-1>h3{
-    font-family: Lato,sans-serif,'Times New Roman', Times, serif;
-    font-size: 1.2rem;
+    font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
+    font-size: 22px;
     color:  #233d7b;
 }
 
 .content-box-1>p{
     margin: 0%;
    color: #434343;
-   font-family: Lato,sans-serif,'Times New Roman', Times, serif;
+   font-size: 18px;
+   font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
    line-height: 25px;
 }
 .content-box-1>p>span{
@@ -70,13 +68,13 @@
 /* Cntent Box Button  */
 .content-box-button{
     width: fit-content;
-     padding: 2% 5%;
+     padding: 15px 20px;
      text-align: center;
      margin-top: 5%;
      color: #fff;
      background-color:  #b73439;
      font-size: 1.3rem;
-     font-family: Lato,sans-serif,'Times New Roman', Times, serif;
+     font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
      font-weight: 600;
      line-height: 30px;
      border-radius: 5px;

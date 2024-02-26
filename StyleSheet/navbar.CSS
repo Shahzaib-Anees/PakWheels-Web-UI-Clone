@@ -1,4 +1,4 @@
-/* Lato Font  */
+/*Lato Font  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -8,6 +8,10 @@ body {
 
 * {
     box-sizing: border-box;
+}
+
+:root{
+    --pri-font: Lato;
 }
 
 #sec1 {
@@ -79,7 +83,7 @@ body {
     height: 100%;
     text-decoration: none;
     color: #fff;
-    font-family: Lato;
+   font-family:var(--pri-font);
     line-height: 55px;
     display: flex;
     align-items: center;
@@ -119,7 +123,7 @@ body {
     text-decoration: none;
     display: flex;
     color: #fff;
-    font-family: Lato, sans-serif, 'Times New Roman', Times, serif;
+    font-family: var(--pri-font), sans-serif, 'Times New Roman', Times, serif;
 }
 
 .special-link>a:hover {
@@ -145,7 +149,7 @@ body {
 #nav-post-add-button>h3{
     margin: 0%;
     color: #fff;
-    font-family: Lato,sans-serif,'Times New Roman', Times, serif;
+    font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
 }
 
 
@@ -171,7 +175,7 @@ body {
 
 .nav-search-head>h1{
     font-size: 2.3rem;
-    font-family: Lato,sans-serif,'Times New Roman', Times, serif;
+    font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
     margin: 0%;
     text-align: center;
     line-height: 55px;
@@ -179,7 +183,7 @@ body {
 .nav-search-head>h3{
     margin: 0%;
     font-size: 1.2rem;
-    font-family: Lato,sans-serif,'Times New Roman', Times, serif;
+    font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
     text-align: center;
     line-height: 25px;
 }
@@ -234,7 +238,7 @@ body {
     outline: none;
     border: none;
     font-size: 1.2rem;
-    font-family: Lato,sans-serif,'Times New Roman', Times, serif;
+    font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
     text-indent: 5px;
 }
 
@@ -277,7 +281,7 @@ body {
 .nav-end-button>a{
     text-decoration: none;
     color: #fff;
-    font-family: Lato,sans-serif,'Times New Roman', Times, serif;
+    font-family: var(--pri-font),sans-serif,'Times New Roman', Times, serif;
     font-weight: 600;
     width: 100%;
     height: 100%;

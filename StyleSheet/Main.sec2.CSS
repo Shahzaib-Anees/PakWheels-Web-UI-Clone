@@ -52,6 +52,7 @@ body {
     align-items: center;
     gap: 30px;
     margin: 8px 0px;
+    overflow-x: scroll;
 }
 
 .main-sec2-navigation>.navigation-item {

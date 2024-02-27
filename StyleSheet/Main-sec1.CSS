@@ -13,7 +13,6 @@
 /* Main sec 1 header  */
 .main-sec1-header{
     width: 100%;
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;

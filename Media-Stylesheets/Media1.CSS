@@ -102,6 +102,16 @@
         font-size: 24px;
     }
 
+    .main-sec2-navigation {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin: 8px 0px;
+        overflow-x: scroll;
+    }
+
     /* Main Section 2 Navigation  */
     .sec2-img-wrapper>a {
         width: 100%;

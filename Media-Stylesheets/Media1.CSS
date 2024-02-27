@@ -1,7 +1,7 @@
 /* Media for small Devices  */
 @media(max-width:780px) {
     #sec1 {
-        padding: 80px 2px;
+        padding: 80px 10px;
         padding-top: 10px;
     }
 
@@ -50,7 +50,7 @@
 
     /* Main sec 1 header  */
     #main-sec1 {
-        padding: 50px 0px;
+        padding: 50px 10px;
         gap: 20px;
     }
 
@@ -85,6 +85,51 @@
         width: 85%;
         border: 1px solid #ccc;
         padding: 2%;
+    }
+
+    /* Main Section 2 Styling  */
+    #main-sec2 {
+        padding: 50px 10px;
+    }
+
+    .main-sec2-header {
+        width: 100%;
+        padding-left: 1%;
+
+    }
+
+    .main-sec2-header>h3 {
+        font-size: 24px;
+    }
+
+    /* Main Section 2 Navigation  */
+    .sec2-img-wrapper>a {
+        width: 100%;
+    }
+
+    /* Main Section 3 Styling  */
+    #main-sec3 {
+        padding: 50px 10px;
+    }
+
+    .sec3-header>h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    /* Section 3 Content  */
+    .sec3-content {
+        margin-top: 1%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .product-widget {
+        width: 100%;
     }
 }
 

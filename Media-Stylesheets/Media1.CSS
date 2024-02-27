@@ -1,0 +1,58 @@
+/* Media for small Devices  */
+@media(max-width:780px) {
+
+    #sec1 {
+        padding: 20px 2px;
+    }
+
+    /* Nav Bar Styling  */
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        padding: 1% 3%;
+    }
+
+    /* Nav Lgo  */
+    .nav-logo {
+        width: 30%;
+        padding: 1%;
+    }
+
+
+    /* Nav Links  */
+    .nav-links {
+        width: 100%;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Special Media for Navbar  */
+/* @media(min-height:500vh){
+    .nav-bar{
+        background-color: #fff;
+        position: sticky;
+    }
+} */
